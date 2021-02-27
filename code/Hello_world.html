@@ -1,0 +1,65 @@
+<!-- define a version of HTML therfore, Doctype html means this document is using the latest version of html -->
+<!DOCTYPE html>
+<!-- html an attribute "lang" used, search engline also able to recognize this webpage is written by english-->
+<html lang="en">
+    <head>  
+        <title> Hello </title>
+    </head>
+    <body> 
+        Hello, world! 
+        <h1 style="color: blue;"> Heading </h1>   
+        <h1> Links </h1>   
+        <a href = "http://google.com">Click here</a>
+        <h1> Table </h1>
+            <table>
+                <thead>
+                    <tr> 
+                        <th>NO</th> <!-- table header-->
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> <!-- table row -->
+                        <td>1</td> <!-- table data -->
+                        <td>Kelly</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Adrien</td>
+                    </tr>
+                </tbody>                
+            </table>
+        <h1>Form</h1>
+        <form>  
+            <div>
+                <input name="name" type="text" placeholder="Full name" >
+                <input name="password" type="password" placeholder="Password">
+                <input type="submit">
+                <input type="button">
+            </div>
+
+            <div>
+                Favorite color?
+                <input name="color" type="radio" value="red">Red
+                <input name="color" type="radio" value="yellow">Yellow
+
+            </div>
+            
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan">
+                    <option value="Afghanistan2">
+                    <option value="Afghanistan3"></option>
+                </datalist>
+            </div>
+            <div>
+                <h3>Input Type test </h3>
+                <input type="checkbox">checkbox <br/>
+                <input type="color">color<br/>
+                <input type="date">
+                <input type="datetime-local">
+            </div>
+        </form>
+    </body>
+</html>
